@@ -1,0 +1,199 @@
+{
+	"info": {
+		"_postman_id": "b0eab495-f402-4479-8590-c85f41903bfc",
+		"name": "dummyapi.io  Comment Data",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24863260"
+	},
+	"item": [
+		{
+			"name": "Get List",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "64f34af2915e08b06baea15c",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get List By Post",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "64f34af2915e08b06baea15c",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/post/:id/comment",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"post",
+						":id",
+						"comment"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "60d21bad67d0d8992e610daf"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get List By User",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "64f34af2915e08b06baea15c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"TestTest\",\r\n  \"lastName\": \"TestTest\",\r\n  \"email\": \"test123123@gmail.com\"\r\n} ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/user/:id/comment",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"user",
+						":id",
+						"comment"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "60d0fe4f5311236168a10a29"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Comment",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "64f34af2915e08b06baea15c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"message\": \"Axaxax\",\r\n\"owner\": \"64f34fd4a973971598b6a8bb\",\r\n\"post\": \"64f36a38ce4f016609344c4d\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Comment",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "64f34af2915e08b06baea15c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment/:id",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "64f37210fa7928a0f01d063c"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
