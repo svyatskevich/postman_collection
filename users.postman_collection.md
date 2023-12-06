@@ -1,54 +1,9 @@
 # URL
 http://users.bugred.ru
-# Collection
+
+# POST
+addavatar
 ```json
-{
-	"info": {
-		"_postman_id": "acb9e64e-d33f-4e09-b10c-fe5694377c58",
-		"name": "Users",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "24863260"
-	},
-	"item": [
-		{
-			"name": "doRegister",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"exec": [
-							"pm.test(\"Status code is 200\", function () {\r",
-							"    pm.response.to.have.status(200);\r",
-							"});"
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "\r\n{\r\n    \"email\": \"mil@mail.ru\",\r\n    \"name\": \" SY\",\r\n    \"password\": \"1\"\r\n}"
-				},
-				"url": {
-					"raw": "http://users.bugred.ru/tasks/rest/doregister",
-					"protocol": "http",
-					"host": [
-						"users",
-						"bugred",
-						"ru"
-					],
-					"path": [
-						"tasks",
-						"rest",
-						"doregister"
-					]
-				}
-			},
-			"response": []
-		},
 		{
 			"name": "addavatar",
 			"request": {
@@ -85,7 +40,11 @@ http://users.bugred.ru
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Page
+```json
 		{
 			"name": "Page",
 			"protocolProfileBehavior": {
@@ -138,7 +97,11 @@ http://users.bugred.ru
 				}
 			},
 			"response": []
-		},
+		}
+```
+# DELETE
+deleteavatar
+```json
 		{
 			"name": "deleteavatar",
 			"request": {
@@ -190,7 +153,11 @@ http://users.bugred.ru
 				}
 			},
 			"response": []
-		},
+		}
+```
+# POST
+foundCount
+```json
 		{
 			"name": "foundCount",
 			"event": [
@@ -250,7 +217,11 @@ http://users.bugred.ru
 				}
 			},
 			"response": []
-		},
+		}
+```
+# POST
+createCompany
+```json
 		{
 			"name": "createCompany",
 			"event": [
@@ -299,6 +270,6 @@ http://users.bugred.ru
 			},
 			"response": []
 		}
-	]
-}
+	
+
 ```
