@@ -1,3 +1,7 @@
+# URL
+http://users.bugred.ru
+# Collection
+```json
 {
 	"info": {
 		"_postman_id": "acb9e64e-d33f-4e09-b10c-fe5694377c58",
@@ -297,3 +301,4 @@
 		}
 	]
 }
+```
