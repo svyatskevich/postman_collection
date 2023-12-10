@@ -1,11 +1,12 @@
-{
-	"info": {
-		"_postman_id": "a82e4544-140c-409a-ac27-b39725e2e47b",
-		"name": "petstore.swagger.io pet",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "24863260"
-	},
-	"item": [
+# URL:
+https://petstore.swagger.io/v2/pet
+
+# Collection:
+petstore.swagger.io pet
+
+# POST
+Add a new pet
+```json
 		{
 			"name": "Add a new pet",
 			"request": {
@@ -34,8 +35,13 @@
 					]
 				}
 			},
+
 			"response": []
-		},
+		}
+```
+# POST
+Upload image
+```json
 		{
 			"name": "Upload image",
 			"request": {
@@ -88,7 +94,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Find pet by ID
+```json
 		{
 			"name": "Find pet by ID",
 			"protocolProfileBehavior": {
@@ -122,7 +132,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Find pet by status
+```json
 		{
 			"name": "Find pet by status",
 			"protocolProfileBehavior": {
@@ -162,7 +176,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# PUT
+Update an existing pet
+```json
 		{
 			"name": "Update an existing pet",
 			"request": {
@@ -196,7 +214,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# POST
+Update a pet in the store
+```json
 		{
 			"name": "Update a pet in the store",
 			"request": {
@@ -241,11 +263,16 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# DELETE
+Delete a pet
+```json
 		{
 			"name": "Delete a pet",
 			"request": {
 				"method": "DELETE",
+
 				"header": [
 					{
 						"key": "accept",
@@ -277,5 +304,4 @@
 			},
 			"response": []
 		}
-	]
-}
+```
