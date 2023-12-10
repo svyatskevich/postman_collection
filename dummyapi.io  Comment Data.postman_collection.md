@@ -1,11 +1,12 @@
-{
-	"info": {
-		"_postman_id": "b0eab495-f402-4479-8590-c85f41903bfc",
-		"name": "dummyapi.io  Comment Data",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "24863260"
-	},
-	"item": [
+# URL:
+https://dummyapi.io/data/v1/comment
+# Collection:
+Comment Data
+
+
+# GET
+Get List
+```json
 		{
 			"name": "Get List",
 			"request": {
@@ -32,7 +33,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Get List By Post
+```json
 		{
 			"name": "Get List By Post",
 			"request": {
@@ -67,7 +72,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Get List By User
+```json
 		{
 			"name": "Get List By User",
 			"protocolProfileBehavior": {
@@ -114,7 +123,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# POST
+Create Comment
+```json
 		{
 			"name": "Create Comment",
 			"request": {
@@ -151,7 +164,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# DELETE
+Delete Comment
+```json
 		{
 			"name": "Delete Comment",
 			"request": {
@@ -195,5 +212,5 @@
 			},
 			"response": []
 		}
-	]
-}
+	
+```
