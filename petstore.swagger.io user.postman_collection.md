@@ -1,11 +1,12 @@
-{
-	"info": {
-		"_postman_id": "64026219-6194-466f-adea-96f7be48a5ec",
-		"name": "petstore.swagger.io user",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "24863260"
-	},
-	"item": [
+# URL:
+https://petstore.swagger.io/v2/user
+
+# Collection:
+petstore.swagger.io user
+
+# POST
+Create user
+```json
 		{
 			"name": "Create user",
 			"request": {
@@ -35,7 +36,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Login
+```json
 		{
 			"name": "Login",
 			"protocolProfileBehavior": {
@@ -83,7 +88,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Logout
+```json
 		{
 			"name": "Logout",
 			"protocolProfileBehavior": {
@@ -121,7 +130,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# DELETE
+Delete user
+```json
 		{
 			"name": "Delete user",
 			"request": {
@@ -162,7 +175,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# PUT
+Update user
+```json
 		{
 			"name": "Update user",
 			"request": {
@@ -203,7 +220,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Get user by name
+```json
 		{
 			"name": "Get user by name",
 			"protocolProfileBehavior": {
@@ -243,7 +264,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# POST
+createWithList
+```json
 		{
 			"name": "createWithList",
 			"request": {
@@ -274,7 +299,12 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# POST
+createWithArray
+```json
+	
 		{
 			"name": "createWithArray",
 			"request": {
@@ -306,5 +336,4 @@
 			},
 			"response": []
 		}
-	]
-}
+```
