@@ -1,11 +1,12 @@
-{
-	"info": {
-		"_postman_id": "de151e94-48a4-463f-af7d-8ddf22cf29ff",
-		"name": "dummyapi.io  Post Data",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "24863260"
-	},
-	"item": [
+# URL:
+https://dummyapi.io/data/v1/
+# Collection:
+Post Data
+
+
+# GET
+Get List
+```json
 		{
 			"name": "Get List",
 			"request": {
@@ -38,7 +39,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Get list of tags
+```json
 		{
 			"name": "Get list of tags",
 			"request": {
@@ -65,7 +70,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Get List By User
+```json
 		{
 			"name": "Get List By User",
 			"request": {
@@ -107,7 +116,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Get List By Tag
+```json
 		{
 			"name": "Get List By Tag",
 			"protocolProfileBehavior": {
@@ -161,7 +174,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Get Post by id
+```json
 		{
 			"name": "Get Post by id",
 			"protocolProfileBehavior": {
@@ -207,7 +224,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# POST
+Create Post
+```json
 		{
 			"name": "Create Post",
 			"request": {
@@ -244,7 +265,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# PUT
+Update Post
+```json
 		{
 			"name": "Update Post",
 			"request": {
@@ -287,7 +312,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# DELETE
+Delete Post
+```json
 		{
 			"name": "Delete Post",
 			"request": {
@@ -331,5 +360,4 @@
 			},
 			"response": []
 		}
-	]
-}
+```
