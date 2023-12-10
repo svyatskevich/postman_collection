@@ -1,11 +1,12 @@
-{
-	"info": {
-		"_postman_id": "d526d427-45f5-445a-8361-2a37eaa26070",
-		"name": "dummyapi.io  User Data",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "24863260"
-	},
-	"item": [
+# URL:
+https://dummyapi.io/data/v1/user
+# Collection:
+User Data
+
+
+# GET
+Get List
+```json
 		{
 			"name": "Get List",
 			"request": {
@@ -32,7 +33,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Get User by id
+```json
 		{
 			"name": "Get User by id",
 			"request": {
@@ -66,7 +71,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# POST
+Create User
+```json
 		{
 			"name": "Create User",
 			"request": {
@@ -103,7 +112,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# PUT
+Update User
+```json
 		{
 			"name": "Update User",
 			"request": {
@@ -146,7 +159,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# DELETE
+Delete User
+```json
 		{
 			"name": "Delete User",
 			"request": {
@@ -190,5 +207,4 @@
 			},
 			"response": []
 		}
-	]
-}
+```
