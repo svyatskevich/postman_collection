@@ -1,11 +1,12 @@
-{
-	"info": {
-		"_postman_id": "86aa9144-8fc6-45e9-9270-ea465eb0464c",
-		"name": "petstore.swagger.io store",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "24863260"
-	},
-	"item": [
+# URL:
+https://petstore.swagger.io/v2/store
+
+# Collection:
+petstore.swagger.io store
+
+# POST
+Place an order
+```json
 		{
 			"name": "Place an order",
 			"request": {
@@ -37,7 +38,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Find purchase order by ID
+```json
 		{
 			"name": "Find purchase order by ID",
 			"protocolProfileBehavior": {
@@ -76,7 +81,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# DELETE
+Delete purchase order by ID
+```json
 		{
 			"name": "Delete purchase order by ID",
 			"request": {
@@ -112,7 +121,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Inventory
+```json
 		{
 			"name": "Inventory",
 			"protocolProfileBehavior": {
@@ -151,5 +164,4 @@
 			},
 			"response": []
 		}
-	]
-}
+```
