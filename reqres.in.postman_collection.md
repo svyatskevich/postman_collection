@@ -1,11 +1,9 @@
-{
-	"info": {
-		"_postman_id": "bacb7227-a58a-4b87-a7c9-15927dd103e9",
-		"name": "reqres.in",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "24863260"
-	},
-	"item": [
+# URL:
+https://reqres.in/api
+
+# GET
+Get list
+```json
 		{
 			"name": "Get list",
 			"request": {
@@ -31,7 +29,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Single user
+```json
 		{
 			"name": "Single user",
 			"request": {
@@ -52,7 +54,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Single user not found
+```json
 		{
 			"name": "Single user not found",
 			"request": {
@@ -73,7 +79,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+List resourse
+```json
 		{
 			"name": "List resourse",
 			"request": {
@@ -93,7 +103,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Single resource
+```json
 		{
 			"name": "Single resource",
 			"request": {
@@ -114,7 +128,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Single resource not found
+```json
 		{
 			"name": "Single resource not found",
 			"request": {
@@ -135,7 +153,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# POST
+Create
+```json
 		{
 			"name": "Create",
 			"request": {
@@ -164,7 +186,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# PUT
+Update
+```json
 		{
 			"name": "Update",
 			"request": {
@@ -194,7 +220,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# PATCH
+Update
+```json
 		{
 			"name": "Update",
 			"request": {
@@ -224,7 +254,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# DELETE
+Delete
+```json
 		{
 			"name": "Delete",
 			"request": {
@@ -245,7 +279,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# POST
+Register - successful
+```json
 		{
 			"name": "Register - successful",
 			"request": {
@@ -274,7 +312,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# POST
+Register - unsuccessful
+```json
 		{
 			"name": "Register - unsuccessful",
 			"request": {
@@ -303,7 +345,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# POST
+Login - successful
+```json
 		{
 			"name": "Login - successful",
 			"request": {
@@ -332,7 +378,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# POST
+Login - unsuccessful
+```json
 		{
 			"name": "Login - unsuccessful",
 			"request": {
@@ -361,7 +411,11 @@
 				}
 			},
 			"response": []
-		},
+		}
+```
+# GET
+Delayed response
+```json
 		{
 			"name": "Delayed response",
 			"request": {
@@ -388,5 +442,4 @@
 			},
 			"response": []
 		}
-	]
-}
+```
